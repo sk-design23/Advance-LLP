@@ -567,6 +567,7 @@ body {
 /* Hover Effect: Zoom Background */
 .sub-container:hover { background-size: 120%; transition: background-size 0.3s ease-in-out; }
 
+
 /* Action Container */
 .action-container {
     width: 48%;
@@ -575,7 +576,6 @@ body {
     top: 85%;
     left: 5%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 10px;
     margin-top: 35px;
@@ -602,19 +602,26 @@ body {
     transform: scale(1.05);
 }
 
+.quote-btn a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Material Catalog */
 .material-catalog {
-    width: 70%;
-    height: 35px;
+    width: 35%;
+    border-radius: 30px;
+    height: 45px;
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #2e5ad6;
     font-weight: bold;
+    padding: 0 0 0 16px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background: #0f0f0f 0.55;
+    background-color: #ffffff;
 }
 
 .material-catalog img {
@@ -703,11 +710,10 @@ body {
 
     /* Material Catalog */
     .material-catalog {
-        width: 99%; /* Full width for mobile */
-        text-align: center; /* Center align text */
-        align-items: center;
-        font-size: 15px;
-        margin-left:50%;
+        width: 45%;
+        height: 30px;
+        font-size: 11px;
+        padding: 0 5px 0px 10px;
     }
 }
 
@@ -757,7 +763,7 @@ body {
     left: 6%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     text-align:left;
     line-height: 2.8rem;
     letter-spacing: 0px;
@@ -958,7 +964,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: left;
         background-color: #575448; /* Default color */
         color: #d3cccc;
         font-size: 16px; /* Reduce font size for mobile view */
@@ -1136,7 +1142,7 @@ body {
 /* ✅ See More Button */
 .see-more {
     margin-top: 20px;
-    color: #3A6AFD;
+    color: #000000;
     cursor: pointer;
     font-weight: bold;
     font-size: 18px;
@@ -1158,6 +1164,10 @@ body {
 .see-more:hover { /* 🔹 Added hover effect for See More */
     transform: scale(1.05); /* 🔹 Slightly enlarge (1.1 was too much) */
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* 🔹 Softer shadow */
+}
+.see-more a{
+    text-decoration: none;
+    color: #0056b3;
 }
 
 /* ✅ JS Controlled Class */
@@ -1779,6 +1789,12 @@ body {
 
 .contact-btn:hover {
     background-color: #1a5bcc;
+}
+
+.contact-btn a{
+    text-decoration: none;
+    color: white;
+    
 }
 @media (max-width: 768px) {
     .sixth-container{

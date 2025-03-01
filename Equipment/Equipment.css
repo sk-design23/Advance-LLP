@@ -36,10 +36,10 @@ html, body {
 .nav-bar-panel {
     width: 100%;
     height: auto;
-    padding-top: 1%;
+    padding-top: 0%;
     padding-bottom: 1%;
     position: absolute;
-    top: 32px;
+    top: 1.5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,8 +50,8 @@ html, body {
 .rectangle-15 {
     width: 95%;
     height: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     border-radius: 70px;
     background: #323232B0;
     display: flex;
@@ -114,6 +114,7 @@ html, body {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-style: inherit;
+    text-decoration: none;
 }
 
 /* Toggle Menu (Mobile Only) */
@@ -130,6 +131,264 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+}
+
+/* Quote Button */
+.quote-button {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    background: #3A6AFD;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 35px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration-color:  none;
+    
+}
+.quote-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.eighth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #111A36;
+    width: 100%;
+    height: auto;
+}
+
+/* First Sub-container */
+.first-eighth-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    gap: 800px;
+    margin-bottom: 20px;
+}
+
+/* First Sub-Sub-Container (Logo & Text Box) */
+.first-eighth-sub-sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 50%;
+}
+
+.footer-logo-section img {
+    width: 150px;
+    height: auto;
+}
+
+/* Text Box */
+.eighth-text-box {
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.eighth-text-box p {
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+/* Second Sub-Sub-Container */
+.second-eighth-sub-sub-container {
+    
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+}
+.second-eighth-sub-sub-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 40px;
+    
+}
+
+/* Paragraph */
+.second-eighth-sub-sub-container p {
+    margin: 0;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1.5%;
+}
+
+.second-eighth-sub-sub-container ul{
+    list-style: none;
+}
+
+/* Input & Button Wrapper */
+.input-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Input Field */
+.second-eighth-sub-sub-container input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.second-eighth-sub-sub-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Contact Button */
+.contact-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Details Row */
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Individual Contact Item */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Footer Navigation */
+.footer-nav {
+    width: 100%;
+    max-width: 1200px;
+    text-align: left;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Divider Line */
+.footer-divider {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+/* Footer Links */
+.footer-links {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    color: white;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .first-eighth-sub-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .first-eighth-sub-sub-container,
+    .second-eighth-sub-sub-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .input-button-wrapper {
+        flex-direction: column;
+    }
+
+    .second-eighth-sub-sub-container input {
+        width: 100%;
+    }
+
+    .contact-button {
+        width: 100%;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-links {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+/* Button Hover Effect */
+.quote-button:hover {
+    background: #2c5be0;
+    transform: scale(1.05);
+    text-decoration: none;
 }
 .whatsapp-float {
     position: fixed;
@@ -439,7 +698,7 @@ html, body {
 }
 
 /* Headers */
-.Top-header, .middle-header, .last-header {
+.Top-header,  .last-header {
     width: 100%; /* Full width */
     padding: 10px 0; /* Only vertical padding */
     text-align: center;
@@ -447,6 +706,18 @@ html, body {
     font-weight: bold;
     color: white;
     background-color: #ff6600;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 0; /* Remove default margin */
+}
+.middle-header {
+    width: 100%; /* Full width */
+    padding: 10px 0; /* Only vertical padding */
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: #3A6AFD;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     margin: 0; /* Remove default margin */
@@ -643,7 +914,7 @@ html, body {
     width: 100%;
     max-width: 1200px;
     height: auto;
-    gap: 20px;
+    gap: 65%;
     margin-bottom: 20px;
 }
 

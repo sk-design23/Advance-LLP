@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -11,7 +12,10 @@ body {
     position: relative;
     width: 100%;
     overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
 }
+
 
 .main-container {
     width: 100%;
@@ -383,6 +387,7 @@ body {
     margin-bottom: 1.5%;
     text-align: left;
     font-size: 4.5rem;
+    font-family: 'Abhaya Libre ExtraBold', serif;
 }
 
 .text-box h4 {
@@ -391,7 +396,7 @@ body {
     font-weight: 400;
     color: white;
     text-align: left;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Top Image Container */
@@ -540,19 +545,21 @@ body {
 
 /* Card Styles */
 .card {
-    width: var(--card-width);
-    height: var(--card-height);
-    border-radius: 10px;
-    background-color: #ccc;
+    width: 25%; /* 🟢 Flexible width */
+    height: 60%;
+    border-radius: 12px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    font-size: 1rem;
-    color: white;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+    justify-content: center;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #403B56;
+    color: #d3cccc;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
 }
 .card:hover {
     transform: scale(1.1); /* Zoom in by 10% */
@@ -566,8 +573,8 @@ body {
 
 /* Card Image */
 .card img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-bottom: 10px;
 }
 /* 📱 Mobile View Fixes */
@@ -676,15 +683,37 @@ body {
     column-gap: 20px; /* Adjust horizontal spacing */
     justify-content: center;
 }
+.second-eighth-sub-sub-container p {
+    margin: 0;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1.5%;
+}
+.second-eighth-sub-sub-container {
+    
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+}
+.second-eighth-sub-sub-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 40px;
+    
+}
 
-
+.second-eighth-sub-sub-container ul{
+    list-style: none;
+}
 /* Main Div */
 .fourth-main-div {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
-    max-width: 800px;
+    width: 60%;
+    max-width: 600px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -879,7 +908,7 @@ body {
     width: 100%;
     max-width: 1200px;
     height: auto;
-    gap: 20px;
+    gap: 65%;
     margin-bottom: 20px;
 }
 
