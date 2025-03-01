@@ -219,7 +219,7 @@ body {
 /* 📱 Mobile View Fixes */
 @media (max-width: 768px) {
     .nav-bar-panel {
-        width: 90%;
+        width: 95%;
         max-width: 600px;
         height: 70px;
         top: 15px;
@@ -251,7 +251,7 @@ body {
 
     /* 🔥 Fixed Menu Positioning */
     .menu-container {
-        width: auto;
+        width:auto;
         justify-content: flex-end;
     }
 
@@ -292,7 +292,7 @@ body {
         color: white;
         position: absolute;
         top: 15px;
-        right: 15px;
+        right: 20px;
         z-index: 10000;
     }
 
@@ -331,7 +331,7 @@ body {
     }
 
     .menu-section {
-        width: 85%;
+        width: 55%;
         right: 7%;
     }
 
@@ -754,7 +754,7 @@ body {
     font-size: 1.5rem;
 }
 .fourth-text-container span{
-    color: #3A6AFD;
+    color: #1f53f0;
     font-size: 2rem;
 }
 
